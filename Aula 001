@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+</body>
+Olá mundo
+  
+<script> 
+//let = variável de blooc(dentro de funçôes)
+//var = variável de Scopo (corpo do projeto)
+
+//alert = aparecer no quadrado
+//console.log = no console
+//document.write = na página
+
+//let nome = "Carol";
+// nome1 = "Geo";
+// nome2 = "Gabi";
+//alert (nome);
+//alert(nome1);
+//alert(nome2);
+
+
+// var valor1 = 10
+// var valor2 = 10
+// var soma = valor1+valor2
+// console.log (soma)
+
+// var valor1 = 10
+// var valor2 = 10
+// var soma = valor1+valor2
+// document.write(soma) 
+  
+// let _ = 2
+// let $ = 2
+// console.log(_+$)
+
+//let nome = "Carol"
+//const idade = 15
+//console.log("O nome é:", nome, "Minha idade é:", idade)
+
+  
+</script>
+</html>
