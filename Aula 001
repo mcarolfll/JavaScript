@@ -21,6 +21,8 @@ Olá mundo
 //console.log = no console
 //document.write = na página
 
+//prompt = caixa de texto
+
 //let nome = "Carol";
 // nome1 = "Geo";
 // nome2 = "Gabi";
@@ -47,6 +49,9 @@ Olá mundo
 //const idade = 15
 //console.log("O nome é:", nome, "Minha idade é:", idade)
 
-  
+//let nome= prompt ("Insira seu nome:")
+//console.log ("meu nome é:", nome)
+
+
 </script>
 </html>
