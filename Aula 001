@@ -1,34 +1,13 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <script src="script.js"></script>
-</body>
-Olá mundo
-  
 <script> 
-//let = variável de blooc(dentro de funçôes)
-//var = variável de Scopo (corpo do projeto)
+let = variável de blooc(dentro de funçôes)
+var = variável de Scopo (corpo do projeto)
 
-//alert = aparecer no quadrado
-//console.log = no console
-//document.write = na página
+alert = aparecer no quadrado
+console.log = no console
+document.write = na página
 
-//prompt = caixa de texto
+prompt = caixa de texto
 
-//let nome = "Carol";
-// nome1 = "Geo";
-// nome2 = "Gabi";
-//alert (nome);
-//alert(nome1);
-//alert(nome2);
 
 
 // var valor1 = 10
