@@ -58,4 +58,84 @@ import Desconto from "./desconto.mjs";
 
 Desconto(1200, 0.6)
 
-3) 
+let nome = prompt("Qual é o seu nome?");
+let idade = prompt("Quantos anos você tem?");
+console.log("Nome:", nome);          // Primeira saída
+console.log("Idade:", idade);        // Segunda saída
+console.log("Mensagem:", `Olá, ${nome}! Você tem ${idade} anos.`); // Terceira saída
+
+let x = parseInt(prompt("Digite o primeiro número:"));
+let y = parseInt(prompt("Digite o segundo número:"));
+console.log("Soma:", x + y);
+console.log("Multiplicação:", x * y);
+console.log("Divisão:", x / y);
+console.log("Subtração:", x - y);
+
+function operacoes(x, y) {
+    console.log("Soma:", x + y);
+    console.log("Multiplicação:", x * y);
+    console.log("Divisão:", x / y);
+    console.log("Subtração:", x - y);
+}
+
+operacoes(x, y);
+
+let nomePessoa = prompt("Qual é o seu nome?");
+let endereco = prompt("Digite seu endereço (com cidade, estado e CEP):");
+let telefone = prompt("Qual é o seu número de telefone?");
+let areaAtuacao = prompt("Qual é a sua área de atuação profissional?");
+
+console.log("Nome:", nomePessoa);
+console.log("Endereço:", endereco);
+console.log("Telefone:", telefone);
+console.log("Área de Atuação:", areaAtuacao);
+
+let totalVendas = parseFloat(prompt("Digite o valor total projetado das vendas:"));
+let lucroAnual = totalVendas * 0.23; // 23% de lucro
+console.log("Lucro Anual:", lucroAnual);
+
+let numeros = [];
+for (let i = 0; i < 5; i++) {
+    numeros.push(parseInt(prompt(`Digite o número ${i + 1}:`)));
+}
+let maiorNumero = Math.max(...numeros);
+console.log("Maior número:", maiorNumero);
+
+let maiorIdade = 0;
+let menorIdade = 0;
+while (true) {
+    let idadePessoa = parseInt(prompt("Digite a idade de uma pessoa (ou digite 0 para sair):"));
+    if (idadePessoa === 0) break;  // Sai do loop
+    if (idadePessoa >= 18) {
+        maiorIdade++;
+    } else {
+        menorIdade++;
+    }
+}
+console.log("Pessoas maiores de idade:", maiorIdade);
+console.log("Pessoas menores de idade:", menorIdade);
+
+function calcularIMC() {
+    let nomeIMC = prompt("Qual é o seu nome?");
+    let peso = parseFloat(prompt("Qual é o seu peso (em kg)?"));
+    let altura = parseFloat(prompt("Qual é a sua altura (em metros)?"));
+    let imc = peso / (altura * altura);
+    let categoria = "";
+    
+    if (imc < 18.5) {
+        categoria = "Abaixo do peso";
+    } else if (imc >= 18.5 && imc < 24.9) {
+        categoria = "Peso normal";
+    } else if (imc >= 25 && imc < 29.9) {
+        categoria = "Sobrepeso";
+    } else {
+        categoria = "Obesidade";
+    }
+
+    console.log("Nome:", nomeIMC);
+    console.log("Idade:", prompt("Qual a sua idade?"));
+    console.log("IMC:", imc.toFixed(2));  
+    console.log("Categoria IMC:", categoria);
+}
+
+calcularIMC();  // Chama a função de IMC
