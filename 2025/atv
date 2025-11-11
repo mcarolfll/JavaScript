@@ -1,0 +1,59 @@
+1)
+INDEX.JS
+const fs = require('fs')
+
+fs.readFile('clientes.txt', 'utf8', (err, data)=>{
+      if(err) {
+        console.error(err);
+        return;
+      }
+      console.log(data)
+})
+
+CLIENTES.TXT
+Lista de Clientes
+Nome: Ana Silva - Telefone: (11) 99999-1111
+Nome: João Pereira - Telefone: (21) 98888-2222
+Nome: Maria Oliveira - Telefone: (31) 97777-3333
+Nome: Carlos Souza - Telefone: (41) 96666-4444
+
+2) desconto.js
+
+function funcionario (a,b){
+
+   let salario = a * b
+   let desconto1 = salario * 0.09
+   let desconto2 = salario * 0.02
+   let caldesconto = desconto1 + desconto2
+   let valortotal = salario - somadesconto
+
+
+
+        console.log("Salario:" + salario)
+        console.log("soma do desconto:" + caldescontodesconto )
+        console.log("valor total com desconto:" + valortotal )
+
+}
+
+export default funcionario;
+
+desconto.mjs
+function Desconto (a, b) {
+console.log(Math.round(a*b)/10)
+
+}
+
+export default Desconto;
+
+index.js
+
+import funcionario from "./desconto.js";
+import boanoite from "./desconto.js";
+
+funcionario(30,31.25)
+
+index.mjs
+
+import Desconto from "./desconto.mjs";
+
+Desconto(1200, 0.6)
