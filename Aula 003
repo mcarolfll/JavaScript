@@ -1,3 +1,0 @@
-getelementById = Busque o elemento pelo identificador único
-getElementByClassName = Busque o elemento pelo nome da class
-querySelector = Busque por qualquer seletor 'p,a,id, class'
