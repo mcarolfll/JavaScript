@@ -1,0 +1,48 @@
+
+//let = variável de blooc(dentro de funçôes)
+//var = variável de Scopo (corpo do projeto)
+
+//alert = aparecer no quadrado
+//console.log = no console
+//document.write = na página
+
+//prompt = caixa de texto
+
+
+// var valor1 = 10
+// var valor2 = 10
+// var soma = valor1+valor2
+// console.log (soma)
+
+// var valor1 = 10
+// var valor2 = 10
+// var soma = valor1+valor2
+// document.write(soma) 
+  
+// let _ = 2
+// let $ = 2
+// console.log(_+$)
+
+//let nome = "Carol"
+//const idade = 15
+//console.log("O nome é:", nome, "Minha idade é:", idade)
+
+//let nome= prompt ("Insira seu nome:")
+//console.log ("meu nome é:", nome)
+
+  //let num1 = parseFloat(prompt("insira o valor"))
+  //let num22 = parseFloat(prompt("insira o valor"))
+  //console.log(num1+num22)
+
+  //let num12 = parseFloat(prompt("Insira o valor"))
+  //let num23 = parseFloat(prompt("Insira o valor"))
+  //console.log(num12-num23)
+
+  //let num13 = parseFloat(prompt("Insira o valor"))
+  //let num24 = parseFloat(prompt("Insira o valor"))
+  //console.log(num13*num24)
+
+  //let num14 = parseFloat(prompt("Insira o valor"))
+  //let num25 = parseFloat(prompt("Insira o valor"))
+  //console.log(num14/num25)
+

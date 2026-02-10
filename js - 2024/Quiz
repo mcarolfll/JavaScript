@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem vindo(a) ao nosso quiz!!</h1>
+    <label>
+        1. Quem foi a primeira pessoa a viajar no Espaço?<br><br>
+        a- Yuri Gagarin<br>
+        b- A cadela Laika<br>
+        c- Neil Armstrong<br>
+    </label>
+    
+    <input type="text" id="resposta"><br><br>
+    <button onclick="exibirResposta()">Exibir resposta</button>
+    <div id="resultado"></div><br><br>
+    
+
+    <label>
+        2. Onde se localiza Machu Picchu?<br><br>
+        a- Colômbia<br>
+        b- Peru<br>
+        c- China<br>
+    </label>
+    
+    <input type="text" id="resposta2"><br><br>
+    <button onclick="exibirResposta2()">Exibir resposta</button>
+    <div id="resultado2"></div><br><br>
+ 
+    <label>
+        3. Quem inventou a lâmpada?<br><br>
+        a- Graham Bell<br>
+        b- Steve Jobs<br>
+        c- Thomas Edison<br>
+    </label>
+    
+    <input type="text" id="resposta3"><br><br>
+    <button onclick="exibirResposta3()">Exibir resposta</button>
+    <div id="resultado3"></div><br><br>
+
+
+    <script>
+
+
+function exibirResposta() {
+    let resposta = document.getElementById("resposta").value;
+    let resultado = document.getElementById("resultado");
+
+    switch (resposta) {
+        case 'a':
+            resultado.innerHTML = "Resposta correta!";
+            break;
+        case 'b':
+        case 'c':
+            resultado.innerHTML = "Resposta errada. A resposta correta é Yuri Gagarin";
+            break;
+        default:
+            resultado.innerHTML = "Resposta inválida.";
+            break;
+    }
+}
+
+function exibirResposta2() {
+    let resposta2 = document.getElementById("resposta2").value;
+    let resultado2 = document.getElementById("resultado2");
+
+    switch (resposta2) {
+        case 'b':
+            resultado2.innerHTML = "Resposta correta!";
+            break;
+        case 'a':
+        case 'c':
+            resultado2.innerHTML = "Resposta errada. A resposta correta é Peru";
+            break;
+        default:
+            resultado2.innerHTML = "Resposta inválida.";
+            break;
+    }
+}
+
+
+function exibirResposta3() {
+    let resposta3 = document.getElementById("resposta3").value;
+    let resultado3 = document.getElementById("resultado3");
+
+    switch (resposta3) {
+        case 'c':
+            resultado3.innerHTML = "Resposta correta!";
+            break;
+        case 'a':
+        case 'b':
+            resultado3.innerHTML = "Resposta errada. A resposta correta é Thomas Edison";
+            break;
+        default:
+            resultado3.innerHTML = "Resposta inválida.";
+            break;
+    }
+}
+
+
+    </script>
+
+
+<style>
+
+body {
+  background-color: #d3cfcfb8; /* Cor de fundo cinza claro */
+ }
+ 
+ h1 {
+  color: #02298a; /* Cor do texto */
+ }
+ h1 {
+  text-shadow: 2px 2px 4px rgb(118, 239, 255);
+  text-overflow: ellipsis;
+ }
+
+</style>
+
+
+</body>
+</html>
+
+
+
